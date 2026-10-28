@@ -1,37 +1,95 @@
-*{
-   background-color: rgb(0, 0, 0); 
+* {
+    background-color: rgb(0, 0, 0);
+    box-sizing: border-box;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+div{
     color: white;
 }
 
-p{
+li {
+    color: rgb(231, 219, 204);
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 170px;
+    margin-right: 140px;
+}
+
+p {
     color: white;
     text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 120px;
+    margin-right: 120px;
 }
 
-#nav-bar a{
+#nav-bar a {
     color: grey;
     margin-left: 50px;
-    padding-left: 12px;
+    padding-left: 100px;
     align-content: center;
-} a:hover {
-  color: rgb(34, 33, 31);
-  background-color: rgb(214, 214, 209);
 }
 
-#acerca-de-mi h1{
- text-align: center;
+a:hover {
+    color: rgb(34, 33, 31);
+    background-color: rgb(214, 214, 209);
 }
+
+#acerca-de-mi h1 {
+    text-align: center;
+    padding-top: 4.6%;
+}
+
+#profile-pic {
+    width: 120 px;
+    height: 230px;
+    padding-left: 32%;
+}
+
+
+#primeros-pasos h2 {
+    text-align: center;
+    padding-top: 40px;
+}
+
+#mis-avances {
+    text-align: center;
+    padding-top: 40px;
+
+}
+
 footer {
     padding-top: 90%;
-} h3 {
+}
+
+h2 {
     text-align: center;
 }
+
+h4 {
+    text-align: center;
+}
+
+.social-links {
+    padding-left: 40%;
+    margin-left: 80px;
+}
+
 .footer-column a {
-    color: rgb(184, 68, 68);
-    margin-left: 50px;
-    padding-left: 12px;
-    align-content: center;
+    color: rgb(202, 199, 199);
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px; /* 10px a la izquierda y 10px a la derecha */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Le da un toque pro */
+}.footer-column a:hover {
+    color: #be1b1b;
 }
