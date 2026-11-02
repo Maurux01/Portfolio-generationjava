@@ -361,6 +361,8 @@ li {
     grid-template-columns: 1fr;
     gap: 1rem;
     margin-top: 2rem;
+    grid-auto-rows: 1fr;
+    align-items: stretch;
 }
 
 .project-card,
@@ -370,6 +372,9 @@ li {
     border-radius: var(--radius-md);
     padding: 1rem;
     text-align: left;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
     box-shadow: var(--shadow-sm);
     text-align: center;
     display: flex;
@@ -767,6 +772,17 @@ li {
 /* ===================== ABOUT LIST ===================== */
 .about-list {
     padding-left: 2.2rem;
+}
+
+/* ===================== CARD CONTENT ===================== */
+.card-content {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-content .card-links {
+    margin-top: auto;
 }
 
 /* ===================== TEXT JUSTIFY ===================== */
