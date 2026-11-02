@@ -123,7 +123,7 @@ li {
 
 .nav-logo {
     color: var(--sand);
-    font-size: 1.35rem;
+    font-size: 1.1rem;
     font-weight: 900;
     letter-spacing: 1.5px;
     text-transform: uppercase;
@@ -158,7 +158,7 @@ li {
 .nav-link {
     color: var(--sand);
     font-weight: 600;
-    font-size: 0.85rem;
+    font-size: 0.75rem;
     padding: 0.45rem 0.85rem;
     border-radius: var(--radius-sm);
     display: inline-block;
