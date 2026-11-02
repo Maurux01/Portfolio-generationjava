@@ -780,6 +780,10 @@ li {
     margin-top: auto;
 }
 
+.repo-card .card-links {
+    margin-top: auto;
+}
+
 /* ===================== TEXT JUSTIFY ===================== */
 .section p.text-justify {
     text-align: justify;
