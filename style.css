@@ -35,11 +35,12 @@
 
 html {
     scroll-behavior: smooth;
+    font-size: 125%;
 }
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 18px;
+    font-size: 1rem;
     line-height: 1.7;
     color: var(--text);
     background-color: var(--bg);
