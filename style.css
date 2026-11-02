@@ -769,6 +769,17 @@ li {
     padding-left: 2.2rem;
 }
 
+/* ===================== CARD CONTENT ===================== */
+.card-content {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-content .card-links {
+    margin-top: auto;
+}
+
 /* ===================== TEXT JUSTIFY ===================== */
 .section p.text-justify {
     text-align: justify;
