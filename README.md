@@ -1,70 +1,70 @@
-# 🌐 Portafolio Personal — Mauro Infante (Maurux01)
+# Portafolio Personal — Mauro Infante (Maurux01)
 
 Portafolio web personal desarrollado durante mi formación en el **bootcamp Full Stack Java Developer de Generation Colombia (2026)**.
 
-Aquí documento mi camino de ingeniero industrial a desarrollador full stack: mi historia, mis primeros proyectos y mi progreso continuo como programador.
+Aquí documento mi camino de ingeniero industrial a desarrollador full stack: mi historia, mis proyectos y mi progreso continuo como programador.
 
 ---
 
-## 📋 Tabla de contenidos
+## Tabla de contenidos
 
-- [Sobre el proyecto](#-sobre-el-proyecto)
-- [Secciones](#-secciones)
-- [Tecnologías utilizadas](#-tecnologías-utilizadas)
-- [Estructura del proyecto](#-estructura-del-proyecto)
-- [Cómo verlo](#-cómo-verlo)
-- [Estado del proyecto](#-estado-del-proyecto)
-- [Contacto](#-contacto)
+- [Sobre el proyecto](#sobre-el-proyecto)
+- [Secciones](#secciones)
+- [Tecnologías utilizadas](#tecnologías-utilizadas)
+- [Estructura del proyecto](#estructura-del-proyecto)
+- [Cómo verlo](#cómo-verlo)
+- [Estado del proyecto](#estado-del-proyecto)
+- [Contacto](#contacto)
 
 ---
 
-## 📖 Sobre el proyecto
+## Sobre el proyecto
 
-Este proyecto es mi **primera página web construida desde cero**, sin frameworks ni plantillas, como parte del proceso de aprendizaje del bootcamp.
+Este proyecto es mi **página web construida desde cero**, sin frameworks ni plantillas, como parte del proceso de aprendizaje del bootcamp.
 
 Es más que un portafolio: es el registro tangible de lo que aprendí no solo sobre código (HTML, CSS y JavaScript), sino sobre **pensamiento crítico, metodología Scrum, trabajo en equipo y mejora continua**.
 
-> _"Como cualquiera que aprende algo nuevo, inicia desde el desconocimiento en búsqueda del conocimiento que será simiento de lo que se construirá en el futuro."_
+> _"Como cualquiera que aprende algo nuevo, inicia desde el desconocimiento en búsqueda del conocimiento que será cimiento de lo que se construirá en el futuro."_
 
 ---
 
-## 🧭 Secciones
+## Secciones
 
-La página está organizada en las siguientes secciones:
-
-| Sección            | Contenido                                                                                                                                                            |
-| ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Inicio**         | Presentación con nombre, oración de empleabilidad, datos de contacto y enlaces a GitHub, LinkedIn y otras redes.                                                    |
-| **Acerca de mí**   | Quién soy, qué busco, mi pasión por el desarrollo y mi historia/crecimiento como desarrollador.                                                                      |
-| **CV**             | Resumen profesional, experiencia, formación académica y habilidades.                                                                                                 |
-| **Portafolio**     | Proyectos personales y colaborativos con descripción, desafíos, soluciones y tecnologías.                                                                           |
-| **Primeros pasos** | Mi historia antes y durante el bootcamp y mis primeros repositorios.                                                                                                 |
-| **Mis avances**    | Repositorios recientes, construidos de forma individual y en equipo, aplicando conceptos avanzados y prácticas de Scrum.                                             |
-| **Contacto**       | Redes sociales y datos de contacto: Reddit, X/Twitter, LinkedIn, Bluesky, Mastodon y GitHub.                                                                         |
+| Sección | Contenido |
+| --- | --- |
+| **Inicio** | Presentación con nombre, oración de empleabilidad, datos de contacto y enlaces a GitHub, LinkedIn y otras redes. |
+| **Acerca de mí** | Quién soy, qué busco, mi pasión por el desarrollo y mi historia/crecimiento como desarrollador. |
+| **CV** | CV completo incrustado desde Google Docs, con opción de descarga en PDF. |
+| **Portafolio** | Proyectos personales y colaborativos con descripción, desafíos, soluciones y tecnologías. |
+| **Primeros pasos** | Mi historia antes y durante el bootcamp y mis primeros repositorios. |
+| **Mis avances** | Repositorios recientes, construidos de forma individual y en equipo. |
+| **Contacto** | Redes sociales y datos de contacto: Reddit, X/Twitter, LinkedIn, Bluesky, Mastodon y GitHub. |
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - **HTML5** — estructura semántica de la página
-- **CSS3** — estilos personalizados, tema oscuro
-- **JavaScript** — interactividad (en desarrollo)
+- **CSS3** — estilos personalizados, tema pastel, diseño responsive
+- **JavaScript** — interactividad y detalles de proyectos
+- **Google Docs** — incrustación del CV
 
 ---
 
-## 📁 Estructura del proyecto
+## Estructura del proyecto
 
 ```
 Portfolio-generationjava/
 ├── index.html      # Estructura y contenido de la página
 ├── style.css       # Estilos y diseño visual
 ├── script.js       # Lógica e interactividad
+├── assets/         # Recursos visuales
 └── README.md       # Este archivo
 ```
 
 ---
 
-## ▶️ Cómo verlo
+## Cómo verlo
 
 No requiere instalación ni dependencias. Solo abre `index.html` en tu navegador:
 
@@ -82,21 +82,13 @@ También puedes abrirlo directamente desde **Visual Studio Code** con la extensi
 
 ---
 
-## 🚧 Estado del proyecto
+## Estado del proyecto
 
-🟡 **En desarrollo activo** — Este es un proyecto en constante evolución mientras avanzo en el bootcamp.
-
-Próximas mejoras planificadas:
-
-- [ ] Completar la sección "Mis avances" con los repositorios finales
-- [ ] Añadir interactividad con JavaScript (animaciones, navegación)
-- [ ] Hacer la tarjeta de perfil con efecto de giro (flip card)
-- [ ] Mejorar la responsividad para dispositivos móviles
-- [ ] Enlazar los demos y códigos de cada proyecto
+🟢 **Activo** — Portafolio actualizado con proyectos, CV incrustado y enlaces verificados.
 
 ---
 
-## 📬 Contacto
+## Contacto
 
 **Mauro Infante // Maurux01** — Ingeniero Industrial · Jr. Full Stack Java Developer
 

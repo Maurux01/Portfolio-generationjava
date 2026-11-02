@@ -1,4 +1,4 @@
-/* ===================== VARIABLES ===================== */
+
 :root {
     --navy: #4A6B8A;
     --sand: #F7E8C9;
@@ -24,7 +24,6 @@
     --transition: 0.25s ease;
 }
 
-/* ===================== RESET ===================== */
 *,
 *::before,
 *::after {
@@ -66,7 +65,6 @@ li {
     color: var(--text);
 }
 
-/* ===================== KEYFRAMES ===================== */
 @keyframes fadeInUp {
     from {
         opacity: 0;
@@ -83,7 +81,6 @@ li {
     50% { transform: translateY(-8px); }
 }
 
-/* ===================== LAYOUT ===================== */
 .container {
     width: 100%;
     max-width: 1320px;
@@ -100,7 +97,6 @@ li {
     background-color: var(--bg-soft);
 }
 
-/* ===================== HEADER ===================== */
 #header {
     position: fixed;
     top: 0;
@@ -171,7 +167,6 @@ li {
     transform: translateY(-2px);
 }
 
-/* ===================== HERO ===================== */
 .hero {
     background: linear-gradient(135deg, var(--navy) 0%, #6B8FAE 40%, var(--rust) 100%);
     color: var(--sand);
@@ -306,7 +301,6 @@ li {
     box-shadow: 0 12px 32px rgba(0, 0, 0, 0.5), 0 0 0 10px rgba(242, 135, 73, 0.35);
 }
 
-/* ===================== TITULOS SECCION ===================== */
 .section-title {
     text-align: center;
     margin-bottom: 1.8rem;
@@ -354,7 +348,6 @@ li {
     font-weight: 500;
 }
 
-/* ===================== CARDS ===================== */
 .projects-container,
 .repos-container {
     display: grid;
@@ -499,7 +492,6 @@ li {
     transform: translateY(-3px);
 }
 
-/* ===================== FOOTER ===================== */
 .footer {
     background: linear-gradient(135deg, var(--navy) 0%, var(--rust) 100%);
     color: var(--sand);
@@ -594,7 +586,6 @@ li {
     color: var(--sand);
 }
 
-/* ===================== HERO CONTACT ===================== */
 .hero-contact {
     display: flex;
     flex-wrap: wrap;
@@ -625,7 +616,6 @@ li {
     font-size: 1rem;
 }
 
-/* ===================== CV ===================== */
 .cv-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -662,7 +652,6 @@ li {
     font-style: italic;
 }
 
-/* ===================== PROJECT MEDIA ===================== */
 .project-media {
     width: 100%;
     margin-bottom: 0.9rem;
@@ -686,7 +675,6 @@ li {
     display: block;
 }
 
-/* ===================== PROJECT DETAILS ===================== */
 .project-details {
     text-align: left;
     margin: 0.8rem 0;
@@ -728,7 +716,6 @@ li {
     text-align: left;
 }
 
-/* ===================== CV EMBED ===================== */
 .cv-embed {
     margin-top: 1.6rem;
     text-align: center;
@@ -764,12 +751,10 @@ li {
     font-weight: 700;
 }
 
-/* ===================== ABOUT LIST ===================== */
 .about-list {
     padding-left: 2.2rem;
 }
 
-/* ===================== CARD CONTENT ===================== */
 .card-content {
     flex: 1 1 auto;
     display: flex;
@@ -784,12 +769,10 @@ li {
     margin-top: auto;
 }
 
-/* ===================== TEXT JUSTIFY ===================== */
 .section p.text-justify {
     text-align: justify;
 }
 
-/* ===================== RESPONSIVE ===================== */
 @media (min-width: 600px) {
     .cv-grid {
         grid-template-columns: repeat(2, 1fr);
