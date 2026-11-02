@@ -11,6 +11,7 @@
     --bg-card: #FFFFFF;
     --text: #2A3E59;
     --text-soft: #5C4636;
+    --border: #D9C9A8;
 
     --shadow-sm: 0 4px 12px rgba(42, 62, 89, 0.1);
     --shadow-md: 0 10px 28px rgba(42, 62, 89, 0.16);
@@ -583,8 +584,138 @@ li {
     color: var(--sand);
 }
 
+/* ===================== HERO CONTACT ===================== */
+.hero-contact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    margin: 0.8rem 0 1.2rem;
+}
+
+.hero-contact a {
+    color: var(--sand);
+    background-color: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(247, 232, 201, 0.45);
+    padding: 0.35rem 0.8rem;
+    border-radius: 30px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    transition: background-color var(--transition), color var(--transition), transform var(--transition);
+}
+
+.hero-contact a:hover {
+    background-color: var(--orange);
+    color: var(--navy);
+    transform: translateY(-2px);
+}
+
+.hero-employability {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+/* ===================== CV ===================== */
+.cv-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.4rem;
+    margin-top: 1.2rem;
+}
+
+.cv-column {
+    background-color: var(--bg-card);
+    border: 2px solid var(--border);
+    border-radius: var(--radius-md);
+    padding: 1.2rem;
+    box-shadow: var(--shadow-sm);
+}
+
+.cv-column h3 {
+    color: var(--navy);
+    margin-bottom: 0.6rem;
+    font-size: 1.1rem;
+}
+
+.cv-column p,
+.cv-column li {
+    color: var(--text-soft);
+    font-size: 0.92rem;
+    text-align: left;
+}
+
+.cv-note {
+    margin-top: 1.4rem;
+    font-size: 0.85rem;
+    color: var(--text-soft);
+    font-style: italic;
+}
+
+/* ===================== PROJECT MEDIA ===================== */
+.project-media {
+    width: 100%;
+    margin-bottom: 0.9rem;
+    border-radius: var(--radius-sm);
+    overflow: hidden;
+    border: 1px solid var(--border);
+    background-color: var(--bg-soft);
+}
+
+.project-media img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    display: block;
+}
+
+/* ===================== PROJECT DETAILS ===================== */
+.project-details {
+    text-align: left;
+    margin: 0.8rem 0;
+    background-color: var(--bg-soft);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    padding: 0.6rem 0.8rem;
+}
+
+.project-details summary {
+    cursor: pointer;
+    font-weight: 700;
+    color: var(--navy);
+    list-style: none;
+}
+
+.project-details summary::-webkit-details-marker {
+    display: none;
+}
+
+.project-details ul {
+    margin: 0.6rem 0 0 1.1rem;
+    max-width: 100%;
+}
+
+.project-details li {
+    font-size: 0.85rem;
+    margin-bottom: 0.35rem;
+}
+
+.card-contribution {
+    font-size: 0.85rem;
+    color: var(--text-soft);
+    background-color: var(--bg-soft);
+    border-left: 3px solid var(--orange);
+    padding: 0.5rem 0.7rem;
+    border-radius: var(--radius-sm);
+    margin: 0.6rem 0;
+    text-align: left;
+}
+
 /* ===================== RESPONSIVE ===================== */
 @media (min-width: 600px) {
+    .cv-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .hero h1 {
         font-size: 2.5rem;
     }

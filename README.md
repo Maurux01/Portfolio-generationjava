@@ -34,8 +34,11 @@ La página está organizada en las siguientes secciones:
 
 | Sección            | Contenido                                                                                                                                                            |
 | ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Acerca de mí**   | Presentación profesional: ingeniero industrial convertido en Full Stack & Security Developer, con más de 4 años de experiencia en optimización de flujos de trabajo. |
-| **Primeros pasos** | Mi historia antes y durante el bootcamp, las habilidades blandas que desarrollé y mi primer proyecto (Gestor de Tareas).                                             |
+| **Inicio**         | Presentación con nombre, oración de empleabilidad, datos de contacto y enlaces a GitHub, LinkedIn y otras redes.                                                    |
+| **Acerca de mí**   | Quién soy, qué busco, mi pasión por el desarrollo y mi historia/crecimiento como desarrollador.                                                                      |
+| **CV**             | Resumen profesional, experiencia, formación académica y habilidades.                                                                                                 |
+| **Portafolio**     | Proyectos personales y colaborativos con descripción, desafíos, soluciones y tecnologías.                                                                           |
+| **Primeros pasos** | Mi historia antes y durante el bootcamp y mis primeros repositorios.                                                                                                 |
 | **Mis avances**    | Repositorios recientes, construidos de forma individual y en equipo, aplicando conceptos avanzados y prácticas de Scrum.                                             |
 | **Contacto**       | Redes sociales y datos de contacto: Reddit, X/Twitter, LinkedIn, Bluesky, Mastodon y GitHub.                                                                         |
 

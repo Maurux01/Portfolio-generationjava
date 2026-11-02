@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-label="Vista previa del proyecto">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4A6B8A"/>
+      <stop offset="55%" stop-color="#F5A97F"/>
+      <stop offset="100%" stop-color="#E88B7A"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" fill="url(#g)"/>
+  <rect x="24" y="24" width="592" height="312" rx="18" fill="rgba(255,255,255,0.16)" stroke="rgba(255,255,255,0.35)"/>
+  <text x="50%" y="46%" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="800" fill="#F7E8C9">Vista previa</text>
+  <text x="50%" y="58%" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" fill="#F7E8C9">del proyecto en GitHub</text>
+  <circle cx="96" cy="96" r="18" fill="#F7E8C9" opacity="0.85"/>
+  <circle cx="544" cy="264" r="26" fill="#F7E8C9" opacity="0.5"/>
+</svg>
