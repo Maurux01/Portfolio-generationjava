@@ -762,7 +762,7 @@ li {
 }
 
 /* ===================== TEXT JUSTIFY ===================== */
-.text-justify {
+.section p.text-justify {
     text-align: justify;
 }
 
