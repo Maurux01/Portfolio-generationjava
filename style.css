@@ -761,6 +761,11 @@ li {
     padding-left: 2.2rem;
 }
 
+/* ===================== TEXT JUSTIFY ===================== */
+.text-justify {
+    text-align: justify;
+}
+
 /* ===================== RESPONSIVE ===================== */
 @media (min-width: 600px) {
     .cv-grid {
