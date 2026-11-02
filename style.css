@@ -157,7 +157,7 @@ li {
 
 .nav-link {
     color: var(--sand);
-    font-weight: 600;
+    font-weight: 800;
     font-size: 0.75rem;
     padding: 0.45rem 0.85rem;
     border-radius: var(--radius-sm);
