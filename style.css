@@ -746,6 +746,11 @@ li {
     font-weight: 700;
 }
 
+/* ===================== ABOUT LIST ===================== */
+.about-list {
+    padding-left: 2.2rem;
+}
+
 /* ===================== RESPONSIVE ===================== */
 @media (min-width: 600px) {
     .cv-grid {
