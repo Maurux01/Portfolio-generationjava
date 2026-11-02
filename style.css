@@ -9,8 +9,8 @@
     --bg: #F7E8C9;
     --bg-soft: #FBF3E4;
     --bg-card: #FFFFFF;
-    --text: #2A3E59;
-    --text-soft: #5C4636;
+    --text: #0F172A;
+    --text-soft: #1F2937;
     --border: #D9C9A8;
 
     --shadow-sm: 0 4px 12px rgba(42, 62, 89, 0.1);
@@ -311,7 +311,7 @@ li {
     position: relative;
     padding-bottom: 0.7rem;
     font-size: 1.7rem;
-    color: var(--navy);
+    color: var(--text);
 }
 
 .section-title::after {
@@ -415,7 +415,7 @@ li {
 }
 
 .card-title {
-    color: var(--navy);
+    color: var(--text);
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
     font-weight: 800;
@@ -638,7 +638,7 @@ li {
 }
 
 .cv-column h3 {
-    color: var(--navy);
+    color: var(--text);
     margin-bottom: 0.6rem;
     font-size: 1.1rem;
 }
