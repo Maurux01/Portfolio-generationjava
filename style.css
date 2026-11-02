@@ -39,7 +39,8 @@ html {
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
+    font-size: 18px;
+    line-height: 1.7;
     color: var(--text);
     background-color: var(--bg);
     overflow-x: hidden;
@@ -332,6 +333,7 @@ li {
     margin-left: auto;
     margin-right: auto;
     color: var(--text);
+    font-size: 1.05rem;
 }
 
 .section ul {
@@ -345,7 +347,7 @@ li {
 }
 
 .intro-text {
-    font-size: 0.95rem;
+    font-size: 1.05rem;
     color: var(--text);
     line-height: 1.7;
     font-weight: 500;
